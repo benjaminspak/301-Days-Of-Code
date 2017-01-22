@@ -3,6 +3,7 @@
 ## Contents
 * [Rules](rules.md)
 * [Log](log.md)
+* [FAQ](https://github.com/akshay1337/301-Days-Of-Code#faq)
 
 ## What is #301DaysOfCode?
 Want to go from code noob to employed developer in less than a year?
