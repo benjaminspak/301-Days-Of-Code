@@ -41,7 +41,7 @@ Of course my friend! Most people doing **#100DaysOfCode** are also doing **#301D
 **#301DaysOfCode** is not aimed at any particular technology. Most people taking the challenge are aiming at learning Web Development, but you can choose any field in programming. The main motive is to become a developer and get hired at the end of the Year.
 
 ## Note
-* If you like this repo and find it useful, please consider &#9733; starring it (on top right of the page). :blush:
+If you like this repo and find it useful, please consider &#9733; starring it (on top right of the page). :blush:
 
 ---
 
