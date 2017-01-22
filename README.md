@@ -8,7 +8,7 @@
 ## What is #301DaysOfCode?
 Want to go from code noob to employed developer in less than a year?
 
-Take the **#301DaysOfCode** and go from Code newbie to an employed Developer in less than a year. The only stipulation; code 3 minutes and 1 second per day for 301 days. Wait! What? Why so little? Check out the FAQ below.
+Take the **#301DaysOfCode** and go from Code newbie to an employed Developer in less than a year. The only stipulation: code 3 minutes and 1 second per day for 301 days. Wait! What? Why so little? Check out the FAQ below.
 
 To join in, use the **#301DaysOfCode** hashtag on any social network to tell people how much ass you are kicking this year!
 
