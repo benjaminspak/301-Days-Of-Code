@@ -1,5 +1,5 @@
 # #301DaysOfCode - Log
-The daily log of my 100DaysOfCode challenge.
+The daily log of my **#301DaysOfCode** challenge.
 
 ## Log
 
