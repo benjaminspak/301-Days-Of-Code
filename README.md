@@ -1,6 +1,6 @@
 # I've joined the #301DaysOfCode Challenge.
 
-![#301DaysOfCode Logo](https://github.com/akshay1337/301-Days-Of-Code/blob/master/301days-logo.svg)
+![#301DaysOfCode Logo](https://github.com/akshay1337/301-Days-Of-Code/blob/master/301DaysOfCode-Badges/301days%20logo-08.jpg)
 
 ## Contents
 * [Rules](rules.md)
