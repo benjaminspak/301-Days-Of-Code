@@ -1,5 +1,7 @@
 # I've joined the #301DaysOfCode Challenge.
 
+![#301DaysOfCode Logo](301days-logo.svg)
+
 ## Contents
 * [Rules](rules.md)
 * [Log](log.md)
