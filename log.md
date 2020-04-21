@@ -1,6 +1,7 @@
 # #301DaysOfCode - Log
 The daily log of my **#301DaysOfCode** challenge.
-#100DaysOfCode challeneg finishes
+just finished #100DaysOfCode challenge 
+Check my #100DaysOfCode challenge footprints on https://twitter.com/PiyushVishnoi11 
 
 ## Log
 
