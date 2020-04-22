@@ -9,3 +9,7 @@ Check my #100DaysOfCode challenge footprints on https://twitter.com/PiyushVishno
 revisited some javascript concepts
 uploaded some selenium related things
 continued with jsp concept in java 
+
+### Day 102/301: 22nd April 2020
+learnt about generating random whole numbers and fractions
+done with lookupprofile code in javascript
