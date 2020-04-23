@@ -13,3 +13,7 @@ continued with jsp concept in java
 ### Day 102/301: 22nd April 2020
 learnt about generating random whole numbers and fractions
 done with lookupprofile code in javascript
+
+### Day 103/301: 23rd April 2020
+learnt about finding Current date and time on Servlet
+made a simple calculator using java servlet
