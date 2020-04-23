@@ -17,4 +17,4 @@ done with lookupprofile code in javascript
 ### Day 103/301: 23rd April 2020
 learnt about finding Current date and time on Servlet
 made a simple calculator using java servlet
-generating number between a given range
+generating number between a given range in javascript
