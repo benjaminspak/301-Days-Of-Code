@@ -18,3 +18,11 @@ done with lookupprofile code in javascript
 learnt about finding Current date and time on Servlet
 made a simple calculator using java servlet
 generating number between a given range in javascript
+
+### Day 104/301: 24th April 2020
+Learnt about some concepts in Html and css
+Stuck with SMTP server in Linux 
+
+### Day 105/301: 25th April 2020
+Learnt about parseInt and praseInt radix in JavaScript
+Learnt about conditional operator in javaScript
