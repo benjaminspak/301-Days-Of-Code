@@ -26,3 +26,7 @@ Stuck with SMTP server in Linux
 ### Day 105/301: 25th April 2020
 Learnt about parseInt and praseInt radix in JavaScript
 Learnt about conditional operator in javaScript
+
+### Day 106/301: 26th April 2020
+learnt about servlet and connection between jsp and servlet
+leant some concepts in javascript
