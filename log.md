@@ -30,3 +30,7 @@ Learnt about conditional operator in javaScript
 ### Day 106/301: 26th April 2020
 learnt about servlet and connection between jsp and servlet
 leant some concepts in javascript
+
+### Day 107/301: 27th April 2020
+learnt about single and multiple profile activation using Maven (testing tool)
+learnt about some concepts in javascripts
