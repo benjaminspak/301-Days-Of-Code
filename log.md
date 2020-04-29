@@ -34,3 +34,6 @@ leant some concepts in javascript
 ### Day 107/301: 27th April 2020
 learnt about single and multiple profile activation using Maven (testing tool)
 learnt about some concepts in javascripts
+
+### Day 108/301: 28th April 2020
+did some revision on some html and css concepts revision
