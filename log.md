@@ -37,3 +37,17 @@ learnt about some concepts in javascripts
 
 ### Day 108/301: 28th April 2020
 did some revision on some html and css concepts revision
+
+### Day 109/301: 29th April 2020
+did some animated stuff with a button using html and css
+https://github.com/Piyushvishnoi/html-and-css/tree/master/Small%20Automation%20Button
+
+### Day 110/301: 30th April 2020
+did some automation to create an analog clock using html and css
+https://github.com/Piyushvishnoi/html-and-css/tree/master/Analog%20Clock
+
+### Day 111/301: 1st April 2020
+did some stuff related to hoverboard of COVID-19
+https://github.com/Piyushvishnoi/html-and-css/tree/master/Covid-19%20CSS%20hoverboard
+
+
