@@ -516,3 +516,89 @@ As seen above, it is worth remembering and noting down that the FormComponent.js
 **Link to work:This is my codepen link to my codepen file with the above code that I learnt from Bob Ziroll, Scrimba React.j. Here is the link : https://codepen.io/meeramenon07/full/VweLeOL
 
 
+
+
+
+**Link to work:*This is my codepen link to my practice session on React Form, very basic and just a practice stuff based on what I am learning on scrimba. Here is the link : https://codepen.io/meeramenon07/pen/JjGoLXy?editors=1010*
+
+
+
+
+## Log 6
+
+### Day 6: [9th June 2020]
+
+**Today's progress: Started with the next lesson on scrimba on the making of a Meme generator, right from scratch! It is really fun! I am learning a lot of stuff by learning and re-learning and un-learning what I had learnt last time, so, along the way, I make mistakes and learn all the way along! Have not yet completed this lesson and thought of continuing it for tomorrow!
+
+The code for today is:
+
+index.js
+import React from "react"
+import ReactDOM from "react-dom"
+import App from "./App"
+
+ReactDOM.render(<App />, document.getElementById("root"))
+
+Header.js
+
+import React from "react"
+
+function Header(){
+    return(
+        
+          <header>
+          <h1><img src="https://www.pngitem.com/pimgs/m/96-966418_happy-face-meme-png-transparent-rage-faces-png.png"/></h1>
+          </header>
+        
+    )
+}
+export default Header
+
+
+MemeGenerator.js
+
+import React, {Component} from "react"
+
+class MemeGenerator extends React.Component{
+    constructor(){
+        super()
+        this.state={}
+    }
+    render(){
+        return(
+            <h1>MEME GENERATOR SECTION</h1>
+        )
+    }      
+        
+     
+    
+}
+
+export default MemeGenerator
+
+
+App.js
+
+import React from "react"
+import Header from "./Header"
+import MemeGenerator from "./MemeGenerator"
+
+/**
+ * Create 2 new components - Header and MemeGenerator
+ * Header will only display things
+ * MemeGenerator will be calling to an API and holding on to data
+ * Each should be in their own file of the same name
+ */
+
+function App() {
+    return (
+        <div>
+         <Header />
+         <MemeGenerator />
+        </div>
+    )
+}
+
+export default App
+
+**Thoughts:*I am beginning to love React and feeling much more confident now*
