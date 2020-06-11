@@ -616,3 +616,11 @@ export default App
 
 
 
+
+Log 8
+Day 8: [11th June 2020]
+Today's Progress: I have been learning React , intermediate level for the past few days from Scrimba, and I really find it much easier after practising on the scrimba platform. Today, Continuing with my capstone project of building a meme generator
+
+**Thoughts:Hope, by the end of this challenge, I become a React expert as I love React but I cannot do it all in one day, going to do it over a few more days in this way, this way by taking it slowly, i will remember and understand much better
+
+© 202
