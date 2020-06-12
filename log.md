@@ -623,4 +623,93 @@ Today's Progress: I have been learning React , intermediate level for the past f
 
 **Thoughts:Hope, by the end of this challenge, I become a React expert as I love React but I cannot do it all in one day, going to do it over a few more days in this way, this way by taking it slowly, i will remember and understand much better
 
-© 202
+
+
+
+
+## Log 9
+
+### Day 9: [12th June 2020]
+
+**Today's Progress: When things get challenging, it is better to take a step backward and re do steps and this is what I am doing today, start from scratch all over again for my capstone project of making the meme generator**
+
+So, I did my Header and MemeGenerator components for my App and decided to stop here for today and proceed from here tomorrow so that my Muscle Memory will not get strained and retain the code even better! Following is the code I did for today:
+
+index.js
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="root"></div>
+        <script src="index.pack.js"></script>
+    </body>
+</html>
+
+
+index.js
+
+import React from "react"
+import ReactDOM from "react-dom"
+import App from "./App"
+
+ReactDOM.render(<App />, document.getElementById("root"))
+
+
+import React from "react"
+
+function Header(){
+    return(
+        <h1> HEADER</h1>
+    )
+}
+
+export default Header
+
+
+import React, {Component} from "react"
+MemeGenerator.js
+class MemeGenerator extends Component{
+    constructor(){
+        super()
+        this.state={
+            
+        }
+    }
+    render(){
+        return(
+            <h1>MemeGenerator</h1>
+        )
+    }
+}
+
+
+export default MemeGenerator
+
+
+App.js
+import React from "react"
+import Header from "./Header"
+import MemeGenerator from "./MemeGenerator"
+
+/**
+ * Create 2 new components - Header and MemeGenerator
+ * Header will only display things
+ * MemeGenerator will be calling to an API and holding on to data
+ * Each should be in their own file of the same name
+ */
+
+function App() {
+    return (
+        <div>
+         <Header />
+         <MemeGenerator />
+        </div>
+    )
+}
+
+export default App
+
+**Thoughts:*Rome was not built in one day and I am dead SURE that I am going to get expert on this React so that I dont need to google for any react coding! I want to get this right without googling!*
+
