@@ -713,3 +713,83 @@ export default App
 
 **Thoughts:*Rome was not built in one day and I am dead SURE that I am going to get expert on this React so that I dont need to google for any react coding! I want to get this right without googling!*
 
+
+
+
+
+## Log 10
+
+### Day 10: 13th June 2020]
+
+**Today's Progress: I am continuing with my meme generator project now- today, I did the next part of the project, which is  carrying out  the following task:   
+/**
+     * We'll be using an API that provides a bunch of meme images.
+     * 
+     * Your task:
+     * make an API call to "https://api.imgflip.com/get_memes" and save the 
+     * data that comes back (`response.data.memes`) to a new state property
+     * called `allMemeImgs`. (The data that comes back is an array)
+     */**
+     
+     The code for above task is as follows:
+     
+     Header.js
+     
+     import React from "react"
+
+function Header() {
+    return (
+        <header>
+            <img 
+                src="http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png" 
+                alt="Problem?"
+            />
+            <p>Meme Generator</p>
+        </header>
+    )
+}
+
+export default Header
+
+
+MemeGenerator.js
+
+import React, {Component} from "react"
+
+class MemeGenerator extends Component {
+    constructor() {
+        super()
+        this.state = {
+            topText: "",
+            bottomText: "",
+            randomImg: "http://i.imgflip.com/1bij.jpg",
+            allMemeImgs: []
+        }
+    }
+    
+    componentDidMount() {
+        fetch("https://api.imgflip.com/get_memes")
+            .then(response => response.json())
+            .then(response => {
+                const {memes} = response.data
+                console.log(memes[0])
+                this.setState({ allMemeImgs: memes })
+            })
+    }
+    
+    render() {
+        return (
+            <div>
+                <form>
+                
+                
+                
+                </form>
+            </div>
+        )
+    }
+}
+
+export default MemeGenerator
+
+**Thoughts:*Becoming more enlightened on React!*
