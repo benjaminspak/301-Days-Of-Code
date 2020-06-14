@@ -722,7 +722,8 @@ export default App
 ### Day 10: 13th June 2020]
 
 **Today's Progress: I am continuing with my meme generator project now- today, I did the next part of the project, which is  carrying out  the following task:   
-/**
+  fetch data from an api link  
+  /**
      * We'll be using an API that provides a bunch of meme images.
      * 
      * Your task:
@@ -730,8 +731,9 @@ export default App
      * data that comes back (`response.data.memes`) to a new state property
      * called `allMemeImgs`. (The data that comes back is an array)
      */**
-     
-     The code for above task is as follows:
+
+                         
+                         The code for above task is as follows:
      
      Header.js
      
@@ -785,6 +787,100 @@ class MemeGenerator extends Component {
                 
                 
                 </form>
+            </div>
+        )
+    }
+}
+
+export default MemeGenerator
+
+**Thoughts:*Becoming more enlightened on React!*
+
+
+
+
+## Log 12
+
+### Day 12: [14th June 2020]
+
+**Today's Progress: I am continuing with my meme generator project now- today, I did the next part of the project, which is  carrying out  the following task: 
+ /**
+                         * Create 2 input fields, one for the topText and one for the bottomText
+                         * Remember that these will be "controlled forms
+                         */
+                         /**
+     * Create the onChagne handler method
+     * It should update the corresponding state on every change of the input box
+     */
+    /**
+     * Create a method that, when the "Gen" button is clicked, chooses one of the
+     * memes from our `allMemeImgs` array at random and makes it so that is the
+     * meme image that shows up in the bottom portion of our meme generator site
+     */
+    
+     
+     The code for above task is as follows:
+     
+     import React, {Component} from "react"
+
+class MemeGenerator extends Component {
+    constructor() {
+        super()
+        this.state = {
+            topText: "",
+            bottomText: "",
+            randomImg: "http://i.imgflip.com/1bij.jpg",
+            allMemeImgs: []
+        }
+        this.handleChange = this.handleChange.bind(this)
+    }
+    
+    componentDidMount() {
+        fetch("https://api.imgflip.com/get_memes")
+            .then(response => response.json())
+            .then(response => {
+                const {memes} = response.data
+                this.setState({ allMemeImgs: memes })
+            })
+    }
+    
+    handleChange(event) {
+        const {name, value} = event.target
+        this.setState({ [name]: value })
+    }
+    
+    /**
+     * Create a method that, when the "Gen" button is clicked, chooses one of the
+     * memes from our `allMemeImgs` array at random and makes it so that is the
+     * meme image that shows up in the bottom portion of our meme generator site (`.url`)
+     */
+    
+    render() {
+        return (
+            <div>
+                <form className="meme-form">
+                    <input 
+                        type="text"
+                        name="topText"
+                        placeholder="Top Text"
+                        value={this.state.topText}
+                        onChange={this.handleChange}
+                    /> 
+                    <input 
+                        type="text"
+                        name="bottomText"
+                        placeholder="Bottom Text"
+                        value={this.state.bottomText}
+                        onChange={this.handleChange}
+                    /> 
+                
+                    <button>Gen</button>
+                </form>
+                <div className="meme">
+                    <img src={this.state.randomImg} alt="" />
+                    <h2 className="top">{this.state.topText}</h2>
+                    <h2 className="bottom">{this.state.bottomText}</h2>
+                </div>
             </div>
         )
     }
