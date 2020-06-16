@@ -982,4 +982,16 @@ class MemeGenerator extends Component {
 
 export default MemeGenerator
     
+\\\\
+
+
+
+
+
+## Log 14
+
+### Day 14: [16th June 2020]
+
+Todays progress: None, one of those bad days when you just cant focus, so, I am just gonna stare at my project for ten minutes and re do it tomorrow
+
 
