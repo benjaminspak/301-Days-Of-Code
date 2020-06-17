@@ -995,3 +995,313 @@ export default MemeGenerator
 Todays progress: None, one of those bad days when you just cant focus, so, I am just gonna stare at my project for ten minutes and re do it tomorrow
 
 
+
+
+
+## Log 15
+
+### Day 15: [17th June 2020]
+
+**Today's Progress: I am continuing with my meme generator project now- today, I decided to reconstruct the project on my codepen file and arrange all the instructions for the project in one place here, so that later when I refer back to this project, it is much easier for me to remember, so, it is like a revision or revisiting the project from scratch: 
+
+All the tasks from the beginning of the project here:
+STEP 1:
+**
+ * Create the boilerplate to get React to render something on the screen
+ * Render an <App /> component, which you'll need to create separately
+ */
+ 
+ 
+ STEP 2:
+ 
+ /**
+ * Create 2 new components - Header and MemeGenerator
+ * Header will only display things
+ * MemeGenerator will be calling to an API and holding on to data
+ * Each should be in their own file of the same name
+ */
+
+STEP 3:
+
+/**
+ * Initialize state to save the following data:
+ *      top text
+ *      bottom text
+ *      random image (intialize with "http://i.imgflip.com/1bij.jpg")
+ */
+
+
+STEP 4:
+
+/**
+     * We'll be using an API that provides a bunch of meme images.
+     * 
+     * Your task:
+     * make an API call to "https://api.imgflip.com/get_memes" and save the 
+     * data that comes back (`response.data.memes`) to a new state property
+     * called `allMemeImgs`. (The data that comes back is an array)
+     */
+    
+    
+    STEP 5:
+    
+    /**
+    * Create 2 input fields, one for the topText and one for the bottomText
+    * Remember that these will be "controlled forms", so make sure to add
+    * all the attributes you'll need for that to work
+    */
+    
+        
+    STEP 6:
+    
+        /**
+    * Create the onChagne handler method
+    * It should update the corresponding state on every change of the input box
+    */
+    
+    
+    STEP 7:
+    
+        /**
+     * Create a method that, when the "Gen" button is clicked, chooses one of the
+     * memes from our `allMemeImgs` array at random and makes it so that is the
+     * meme image that shows up in the bottom portion of our meme generator site
+     */
+     
+     
+     STEP 8:
+     
+     // get a random int (index in the array)
+        // get the meme from that index
+        // set `randomImg` to the `.url` of the random item I gra
+    
+    
+    **Thoughts:*Hope, by the end of this challenge, I am slowly becoming a React somebody*
+    
+    Complete code source for the above task for my codepen file:
+    
+    The html file:<div id="root"></div>
+    
+    The css file:
+    
+    * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: #6441A5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header > img {
+    height: 80%;
+    margin-left: 10%;
+}
+
+header > p {
+    font-family: VT323, monospace;
+    color: whitesmoke;
+    font-size: 50px;
+    margin-left: 60px;
+}
+
+.meme {
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.meme > img {
+    width: 100%;
+}
+
+.meme > h2 {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.meme > .bottom {
+    bottom: 0;
+}
+
+.meme > .top {
+    top: 0;
+}
+
+.meme-form {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meme-form > input {
+    width: 45%;
+    height: 40px;
+}
+
+.meme-form > button {
+    border: none;
+    font-family: VT323, monospace;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    color: white;
+    background: #6441A5;
+}
+
+.meme-form > input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: cen
+}
+.meme-form > input::-moz-placeholder { /* Firefox 19+ */
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: cen
+}
+.meme-form > input:-ms-input-placeholder { /* IE 10+ */
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: cen
+}
+.meme-form > input:-moz-placeholder { /* Firefox 18- */
+  font-family: VT323, monospace;
+  font-size: 25px;
+  text-align: cen
+}
+    
+    The javascript file:
+    
+    function Header() {
+    return (
+        <header>
+            <img 
+                src="http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png" 
+                alt="Problem?"
+            />
+            <p>Meme Generator</p>
+        </header>
+    )
+}
+
+
+class MemeGenerator extends React.Component {
+    constructor() {
+        super()
+        this.state = {
+            topText: "",
+            bottomText: "",
+            randomImg: "http://i.imgflip.com/1bij.jpg",
+            allMemeImgs: []
+        }
+        this.handleChange = this.handleChange.bind(this)
+        this.handleSubmit = this.handleSubmit.bind(this)
+    }
+    
+    componentDidMount() {
+        fetch("https://api.imgflip.com/get_memes")
+            .then(response => response.json())
+            .then(response => {
+                const {memes} = response.data
+                this.setState({ allMemeImgs: memes })
+            })
+    }
+    
+    handleChange(event) {
+        const {name, value} = event.target
+        this.setState({ [name]: value })
+    }
+    
+    handleSubmit(event) {
+        event.preventDefault()
+        const randNum = Math.floor(Math.random() * this.state.allMemeImgs.length)
+        const randMemeImg = this.state.allMemeImgs[randNum].url
+        this.setState({ randomImg: randMemeImg })
+    }
+    
+    render() {
+        return (
+            <div>
+                <form className="meme-form" onSubmit={this.handleSubmit}>
+                    <input 
+                        type="text"
+                        name="topText"
+                        placeholder="Top Text"
+                        value={this.state.topText}
+                        onChange={this.handleChange}
+                    /> 
+                    <input 
+                        type="text"
+                        name="bottomText"
+                        placeholder="Bottom Text"
+                        value={this.state.bottomText}
+                        onChange={this.handleChange}
+                    /> 
+                
+                    <button>Gen</button>
+                </form>
+                <div className="meme">
+                    <img src={this.state.randomImg} alt="" />
+                    <h2 className="top">{this.state.topText}</h2>
+                    <h2 className="bottom">{this.state.bottomText}</h2>
+                </div>
+            </div>
+        )
+    }
+}
+
+
+
+function App() {
+    return (
+        <div>
+            <Header />
+            <MemeGenerator />
+        </div>
+    )
+}
+
+
+
+ReactDOM.render(<App />, document.getElementById("root"))
+    
+    
+
+**Link to work:*This is my codepen link to my codepen file with the above code that I learnt from Bob Ziroll, Scrimba React.j. Here is the link : [*https://codepen.io/meeramenon07/pen/bGEpYXQ*]
+    
+    
+    
+ 
+ 
+
+
+
