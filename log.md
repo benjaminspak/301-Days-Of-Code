@@ -1297,6 +1297,20 @@ ReactDOM.render(<App />, document.getElementById("root"))
     
 
 **Link to work:*This is my codepen link to my codepen file with the above code that I learnt from Bob Ziroll, Scrimba React.j. Here is the link : [*https://codepen.io/meeramenon07/pen/bGEpYXQ*]
+
+
+
+
+
+## Log 16
+
+### Day 16: [18th June 2020]
+
+**Today's Progress: I am playing around with my code with my meme generator project now- today, I decided to reconstruct the project on my codepen file and arrange all the instructions for the project in one place here, so that later when I refer back to this project, it is much easier for me to remember, so, it is like a revision or revisiting the project from scratch: Here is the revised project with some changes in the css and some changes with the api and images 
+
+**Link to work:*This is my codepen link to my codepen file with the above code that I learnt from Bob Ziroll, Scrimba React.j. Here is the link : [*https://codepen.io/meeramenon07/full/XWXNmpq*]
+
+
     
     
     
