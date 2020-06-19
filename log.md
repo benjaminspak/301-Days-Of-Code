@@ -1314,7 +1314,114 @@ ReactDOM.render(<App />, document.getElementById("root"))
     
     
     
+ ## Log 17
+
+### Day 17: [19th June 2020]
+
+**Today's Progress: I learnt how to write some code in modern React**
+
+**Thoughts:*Hope, by the end of this challenge, I become a React expert as I love React but sometimes I find it intimidating to do without googling, hehe*
+
+This is the general standard of using class based functions in React :
+
+import React, {Component} from "react"
+
+class App extends Component {
+    // Change to use class properties
+    constructor() {
+        super()
+        this.state = {
+            firstName: ""
+        }
+        this.handleChange = this.handleChange.bind(this)
+    }
+    
+    // Change to use arrow functions
+    handleChange(event) {
+        const { name, value } = event.target
+        this.setState({
+            [name]: value
+        })
+    }
+    
+    render() {
+        return (
+            <main>
+                <form>
+                    <input 
+                        type="text"
+                        name="firstName" 
+                        value={this.state.firstName} 
+                        onChange={this.handleChange} 
+                        placeholder="First Name"
+                    />
+                </form>
+                <h1>{this.state.firstName}</h1>
+            </main>
+        )
+    }
+}
+
+export default App
+
+AND SOME CHANGES IN MODERN REACT AS MENTIONED BELOW
+
+
+/**
+ * Other modern/advanced React features/topics to learn:
+ * 
+ * Official React Context API - https://reactjs.org/docs/context.html
+ * Error Boundaries - https://reactjs.org/docs/error-boundaries.html
+ * render props - https://reactjs.org/docs/render-props.html
+ * Higher Order Components - https://reactjs.org/docs/higher-order-components.html
+ * React Router - https://reacttraining.com/react-router/core/guides/philosophy
+ * React Hooks - https://reactjs.org/docs/hooks-intro.html
+ * React lazy, memo, and Suspense - https://reactjs.org/blog/2018/10/23/react-v-16-6.html
+ */
  
+ 
+ After changes , the modern React code would like this to replace the above code:
+ 
+ import React, {Component} from "react"
+
+class App extends Component {
+    // Change to use class properties
+    state = { firstName: "" }
+    
+    // Change to use arrow functions
+    handleChange = (event) => {
+        const { name, value } = event.target
+        this.setState({
+            [name]: value
+        })
+    }
+    
+    render() {
+        return (
+            <main>
+                <form>
+                    <input 
+                        type="text"
+                        name="firstName" 
+                        value={this.state.firstName} 
+                        onChange={this.handleChange} 
+                        placeholder="First Name"
+                    />
+                </form>
+                <h1>{this.state.firstName}</h1>
+            </main>
+        )
+    }
+}
+
+export default App
+
+ 
+ 
+ 
+
+**Link to work:*This is my codepen link to my practice session on React Form, very basic and just a practice stuff based on what I am learning on scrimba. Here is the link : https://codepen.io/meeramenon07/pen/YzymZrQ*
+
  
 
 
