@@ -1426,3 +1426,49 @@ export default App
 
 
 
+
+## Log 18
+
+### Day 18: [20th June 2020]
+
+**Today's Progress: In my scrimba lesson, I learnt introduction to React Hooks and about useState()**
+
+**Thoughts:*React Hooks is pretty easier and more convenient to do than React, by doing away with lots of the conventional coding steps, hehe*
+
+For example, the usual norm of code for React in this simple App using class based App:
+
+class App extends React.Component {
+//     constructor() {
+//         super()
+//         this.state = {
+//             answer: "Yes"
+//         }
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 <h1>Is state important to know? {this.state.answer}</h1>
+//             </div>
+//         )
+//     }
+// }
+
+export default App
+
+The above code will be replaced by the following code for React Hooks:
+
+import React, {useState} from "react"
+
+function App() {
+    const [answer] = useState("Yes")
+    return (
+        <div>
+            <h1>Is state important to know? {answer}</h1>
+        </div>
+    )
+}
+
+
+
+
