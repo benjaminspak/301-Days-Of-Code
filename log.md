@@ -1472,3 +1472,72 @@ function App() {
 
 
 
+
+## Log 19
+
+### Day 19: [22nd June 2020]
+
+**Today's Progress: In my scrimba lesson, I learnt more about  React Hooks and about useState()**
+
+**Thoughts:*React Hooks is pretty easier and more convenient to do than React, by doing away with lots of the conventional coding steps, hehe*
+
+The code here for setting count display on the screen using scrimba:
+
+import React, {useState} from "react"
+
+// Convert the class below to a functional component that uses the useState hook to initalize a count vartiable to 0 and display the count on the screen.
+// Don't worry about the part where the button changes the count quite yet, that's what you're here to learn about!
+
+function App() {
+    const [count, setCount] = useState(0)
+    const [answer, setAnswer] = useState("Yes")
+    
+    function increment() {
+        setCount(prevCount => prevCount + 1)
+    }
+    
+    function decrement() {
+        setCount(prevCount => prevCount - 1)
+    }
+    
+    return (
+        <div>
+            <h1>{count}</h1>
+            <button onClick={increment}>Increment</button>
+            <button onClick={decrement}>Decrement</button>
+        </div>
+    )
+}
+
+// class App extends React.Component {
+//     constructor() {
+//         super()
+//         this.state = {
+//             count: 0,
+//             answer: "Yes"
+//         }
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 <h1>{this.state.count}</h1>
+//                 <button>Change!</button>
+//             </div>
+//         )
+//     }
+// }
+
+export default App
+
+index.js
+
+import React from "react"
+import ReactDOM from "react-dom"
+
+import App from "./App"
+
+ReactDOM.render(<App />, document.getElementById("root"))
+
+
+
