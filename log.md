@@ -1541,3 +1541,89 @@ ReactDOM.render(<App />, document.getElementById("root"))
 
 
 
+
+
+## Log 20
+
+### Day 20: [23nd June 2020]
+
+**Today's Progress: In my scrimba lesson, I learnt more about  React Hooks and about useEffect()
+**
+
+**Thoughts:*React Hooks is pretty easier and more convenient to do than React, by doing away with lots of the conventional coding steps, hehe*
+
+
+The code :
+
+import React, {useEffect, useState} from "react"
+
+import randomcolor from "randomcolor"
+
+
+function App(){
+  const [count, setCount] = useState(0)
+  const[color, setColor] = useState("")
+  
+  function increment(){
+    setCount(prevCount => prevCount + 1 )
+  }
+  
+  function decrement(){
+    setCount(prevCount => prevCount - 1) 
+  }
+  
+  useEffect(() => {
+     setColor(randomcolor())
+  
+  }, [count])
+  
+  return(
+  <div>
+    <h1 style={{color: color}}>{count}</h1>
+    <button onClick={increment}>Increment</button>
+    <button onClick={decrement}>Decrement</button>
+
+  </div>
+  )
+  
+}
+
+index.js
+
+import React from "react"
+import ReactDOM from "react-dom"
+
+import App from "./App"
+
+ReactDOM.render(<App />, document.getElementById("root"))
+
+
+css
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+button {
+    border: 1px solid lightgray;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 4px;   
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline:0;
+}
+
+
