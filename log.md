@@ -1627,3 +1627,47 @@ button:focus {
 }
 
 
+
+
+
+
+## Log 21
+
+### Day 21: [24th June 2020]
+
+**Today's Progress: In my scrimba lesson, I learnt more about  React Hooks and about useEffect()
+**
+
+**Thoughts:*React Hooks is pretty easier and more convenient to do than React, by doing away with lots of the conventional coding steps, hehe*
+
+
+The code :
+
+App.js
+import React, {useState, useEffect} from "react"
+import randomcolor from "randomcolor"
+
+function App() {
+    const [count, setCount] = useState(0)
+    const [color, setColor] = useState("")
+    
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            // setCount(prevCount => prevCount + 1)
+        }, 1000)
+        return () => clearInterval(intervalId)
+    }, [])
+    
+    useEffect(() => {
+        setColor(randomcolor())
+    }, [count])
+    
+    return (
+        <div>
+            <h1 style={{color: color}}>{count}</h1>
+        </div>
+    )
+}
+
+export default App
+
