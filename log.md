@@ -1671,3 +1671,24 @@ function App() {
 
 export default App
 
+
+
+## Log 22
+
+### Day 22: [25th June 2020]
+
+**Today's Progress: In my scrimba lesson, I learnt more about  React Hooks and Project ideas for practice:
+https://medium.freecodecamp.org/every-time-you-build-a-to-do-list-app-a-puppy-dies-505b54637a5d
+
+https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a
+
+https://medium.freecodecamp.org/summer-is-over-you-should-be-coding-heres-yet-another-list-of-exciting-ideas-to-build-a95d7704d36d
+
+
+**
+
+**Thoughts:*Finally i concluded all the lessons of React in scrimba. Learnt about state, functionand  class methods, and props for passing state between parents and child, JSX, and css styling for react apps, making a to do list, making a form in react, conditional rendering in React and introduction to React Hooks. Going to practise some more projects in React from above links of freecodecamp *
+
+
+
+
