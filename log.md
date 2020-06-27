@@ -1770,6 +1770,46 @@ Once you're done, submit the URL to your working project with all its tests pass
 
 
 
+## Log 24
+
+### Day 24: [27th June 2020]
+
+**Today's Progress: As: part of my quest to get more expertise with React, I have just started doing the last React project from the Frond end libraries projects in FreeCodeCamp.org certification projects: BUILD A POMODORO CLOCK
+I only attempted 4 tasks out of the 29 tasks mentioned above and I passed the first 4 tests! CONGRATULATIONS TO ME :-)
+
+The 4 tasks are :
+
+User Story #1: I can see an element with id="break-label" that contains a string (e.g. "Break Length").
+
+User Story #2: I can see an element with id="session-label" that contains a string (e.g. "Session Length").
+
+User Story #3: I can see two clickable elements with corresponding IDs: id="break-decrement" and id="session-decrement".
+
+User Story #4: I can see two clickable elements with corresponding IDs: id="break-increment" and id="session-increment".
+
+
+The code for the first 4 tests
+for html file:
+<div id="root"></div>
+
+for javascript react file
+function App(){
+  return(
+   <div className = "App">
+      <p id="break-label">Break </p>
+      <p id="session-label">Session Length</p>
+      <button onClick id="break-decrement">Break Decrement</button>
+      <button onClick id="session-decrement">Session Decrement</button>
+      <button onClick id="break-increment">Break Increment</button>
+      <button onClick id="session-increment">Session Increment</button>
+   </div>    
+      
+   
+  );
+}
+
+
+
 
 
 
