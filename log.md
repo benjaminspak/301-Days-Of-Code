@@ -1813,3 +1813,11 @@ function App(){
 
 
 
+
+
+## Log 25
+
+### Day 25: [28th June 2020- 29th June 2020]
+
+**Today's Progress: As: part of my quest to get more expertise with React, I have just started doing the last front-end project from the Frond end libraries projects in 
+fcc and I am badly stuck. Perhaps I should try doing it in jquery instead of React??
