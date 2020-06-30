@@ -1821,3 +1821,38 @@ function App(){
 
 **Today's Progress: As: part of my quest to get more expertise with React, I have just started doing the last front-end project from the Frond end libraries projects in 
 fcc and I am badly stuck. Perhaps I should try doing it in jquery instead of React??
+
+
+
+
+
+
+## Log 26
+
+### Day 26: [30th June 2020]
+
+**Today's Progress: I did lots and lots of research and digging into react tutorials and practised some more code in react components and props and now, I could figure out where I went wrong. I managed to pass the first 4 tests again and corrected my app code to start with and here is the starter code
+
+
+function App(){
+  return(
+    <div className = "App">
+       <section id="break-label">Break Length</section>
+         <p id="session-label">Session Length</p>
+         <button onClick id="break-decrement">Break Decrement</button>
+         <button onClick id="session-decrement">Session Decrement</button>
+         <button onClick id="break-increment">Break Increment</button>
+         <button onClick id="session-increment">Session Increment</button>
+        
+      
+    </div>
+  )
+}
+
+
+
+
+
+
+
+
