@@ -1852,7 +1852,15 @@ function App(){
 
 
 
+## Log 27
 
+### Day 27: [2nd June 2020]
+
+I skipped yesterday...oops
+
+I am stuck at one point and still trying to continue with the project...All the best to me ...
+
+Progress: no progress yet
 
 
 
