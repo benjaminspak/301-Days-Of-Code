@@ -1864,3 +1864,87 @@ Progress: no progress yet
 
 
 
+
+## Log 28
+
+### Day 28: [4th June 2020]
+
+Today's progress: I could not code for two days as my computer internet was down. But today, I achieved a lot by passing 11 tests out of the total 29 tests for the project, Congratulations to me as I am now on the right track,,,,,
+
+The code in progress
+
+
+function Length(){
+  return(
+    <div id = "length-controller">
+      <h2 id ="break-label">Break Length</h2>
+      <h2><span id ="session-label">Session Length</span></h2>
+      
+    </div>
+  )
+}
+  
+
+
+class App extends React.Component{
+  constructor(props){
+    super(props)
+    this.state ={
+      BreakLength : 5,
+      SessionLength: 25,
+      Paused:0,
+      Running:0,
+    }
+  }
+  render(){
+    return(
+    <div>
+      <section id = "length-controller">
+      <h2 id ="break-label">Break Length</h2>
+      <button id = "break-decrement"> - </button>
+      <button id = "break-increment"> + </button>
+        <p id = "break-length"> 5 </p>
+      <h2 id ="session-label">Session Length</h2>
+      <button id = "session-decrement"> - </button>
+      <button id = "session-increment"> + </button>
+        <p id ="session-length"> 25 </p>
+      </section>
+      <section id = "session">
+        <h2 id = "timer-label"> Session </h2>
+        <p id ="time-left">Time</p>
+        
+                          
+      </section>
+      <section id = "controls">
+        <button id ="start_stop"></button>
+        <button id="pause"></button>
+        <button id = "reset"></button>
+        <figure>
+          <figcaption>Beep sound:</figcaption>
+          <audio
+          controls
+          id = "beep"
+          src="/media/examples/t-rex-roar.mp3">
+            Beep sound
+            <code>audio</code> element.
+          </audio>
+        </figure>
+       
+      </section>
+     
+    </div>
+  
+  )
+  }
+  
+  
+}
+ReactDOM.render(<App/>, document.getElementById("root"));
+
+
+
+
+
+
+
+
