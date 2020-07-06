@@ -1946,5 +1946,10 @@ ReactDOM.render(<App/>, document.getElementById("root"));
 
 
 
+## Log 29
+
+### Day 30: [6th June 2020]
+
+Today's progress: I could not code for two days as my computer internet was down. But today, I achieved a lot by passing 11 tests out of the total 29 tests for the project, Congratulations to me as I am now on the right track,,,,,Not yet able to pass the other tests yet...
 
 
