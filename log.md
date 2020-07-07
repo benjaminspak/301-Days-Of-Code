@@ -1953,3 +1953,17 @@ ReactDOM.render(<App/>, document.getElementById("root"));
 Today's progress: I could not code for two days as my computer internet was down. But today, I achieved a lot by passing 11 tests out of the total 29 tests for the project, Congratulations to me as I am now on the right track,,,,,Not yet able to pass the other tests yet...
 
 
+
+
+
+
+
+## Log 30
+
+### Day 31: [7th June 2020]
+
+Today's progress: I have completed 50% of my pomodoro clock project, should be able to finish it soon ...
+
+
+
+
