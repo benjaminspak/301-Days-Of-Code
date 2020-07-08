@@ -1967,3 +1967,9 @@ Today's progress: I have completed 50% of my pomodoro clock project, should be a
 
 
 
+## Log 31
+
+### Day 32: [8th June 2020]
+
+Today's progress: I have completed 70% of my pomodoro clock project, should be able to finish it soon ...
+
