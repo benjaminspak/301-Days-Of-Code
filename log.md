@@ -1984,3 +1984,15 @@ Today's progress: I have completed 70% of my pomodoro clock project, should be a
 Today's progress: I have completed my javascript react file and now doing the styling sheet of my pomodoro clock project, should be able to finish it within a day or two!! ...
 
 
+
+
+
+
+
+## Log 33
+
+### Day 34: [10th June 2020]
+
+Today's progress: I have completed my javascript react file and now doing the styling sheet of my pomodoro clock project, should be able to finish it within a day or two!! ...
+
+
