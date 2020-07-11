@@ -1996,3 +1996,11 @@ Today's progress: I have completed my javascript react file and now doing the st
 Today's progress: I have completed my javascript react file and now doing the styling sheet of my pomodoro clock project, should be able to finish it within a day or two!! ...
 
 
+
+
+
+##Log 14
+### Day 35: [11th June 2020]
+Today's progress: I finished my React app project but not yet made it responsive, will add in the media queries tomorrow.
+For today, I will call it a day...phew!
+
