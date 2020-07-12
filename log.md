@@ -2000,7 +2000,15 @@ Today's progress: I have completed my javascript react file and now doing the st
 
 
 ##Log 14
-### Day 35: [11th June 2020]
+### Day 35: [11th July 2020]
 Today's progress: I finished my React app project but not yet made it responsive, will add in the media queries tomorrow.
 For today, I will call it a day...phew!
+
+##Log 15
+### Day 36: [12th July 2020]
+sorry for typo mistake earlier, this is july month running and not june...
+Today's progress: I was supposed to add the responsiveness to my project but could not do so as I am unable to open my codepen file today, some error in codepen server apparently, hope, it will be up by tomorrow!!!
+
+
+
 
