@@ -2012,3 +2012,17 @@ Today's progress: I was supposed to add the responsiveness to my project but cou
 
 
 
+##Log 16
+### Day 37: [13th July 2020]
+
+Today's progress: I finished the project and passed all the tests in the project tasks for making the Pomodoro clock.
+
+Link to my work: https://codepen.io/meeramenon07/pen/zYrzgpp
+
+
+
+
+
+
+
+
