@@ -2027,6 +2027,13 @@ Link to my work: https://codepen.io/meeramenon07/pen/zYrzgpp
 
 Today's progress: I am planning to do more JavaScript projects and React projects and also revise on lessons from React and JavaScript while doing the challenges. Signed up for one more free lesson in React from Scrimba to make a React project. The project is Build a Movie Search App in React. Just started researching and doing lessons today to get more inspiration for this project!
 
+##Log 18
+### Day 39: [15th July 2020-16th July 2020 ]
+
+Today's progress: Signed up with a movie database to get a new API link for creating the movie search app Doing some research and also taking tutorials to get help for this project
+
+
+
 
 
 
