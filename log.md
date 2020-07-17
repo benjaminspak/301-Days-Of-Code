@@ -2035,6 +2035,16 @@ Today's progress: Signed up with a movie database to get a new API link for crea
 
 
 
+## Log 40
+### Day 40 : [16th July -17th July 2020]
+
+Today's progress: I love this Search Movie React app project tutorial. Scrimba tutorial is so practical oriented, just love it. In order to remember and grasp on a long term basis, I always type out my code and also write down my code and this makes it so much easier to understand and also remember. Today, I made the function class for this app. 
+Tomorrow, I will continue with it to make the next component for this project.
+
+
+
+
+
 
 
 
