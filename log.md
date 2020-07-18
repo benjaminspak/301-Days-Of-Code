@@ -2044,6 +2044,12 @@ Tomorrow, I will continue with it to make the next component for this project.
 
 
 
+## Log 41
+### Day 41 : [18th July 2020]
+
+Today's progress: I learnt React Hooks- How to manage state with useState() and how to add api for search query and also how to catch errors .
+
+Tomorrow, I will continue .
 
 
 
