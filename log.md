@@ -2128,9 +2128,17 @@ Today's progress: Leant how to make the movie display information. Will do the s
 
 
 
+## log 43
+### Day 43 : [20th July 2020]
+
+Today's progress- Finished the movie search app tutorial. Tomorrow, I am going to try doing the same app in my codepen file 
 
 
 
 
 
 
+
+
+
+r
