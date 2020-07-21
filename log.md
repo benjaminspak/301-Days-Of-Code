@@ -2137,6 +2137,16 @@ Today's progress- Finished the movie search app tutorial. Tomorrow, I am going t
 
 
 
+## Log 44
+### Day 44: [21st July 2020]
+
+Today's progress: Today, I want to try out the new feature of github profiles and decided to include my tutorial videos as well in my coding challenges, so, here is one of the tutorials that I published on youtube today: This is to teach about lastIndexOf in javascript strings. Here is the link:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vNbUZQ_19jg" frameborder="0" allow="accelerometer; autoplay=0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
 
 
 
