@@ -2145,6 +2145,14 @@ Today's progress: Today, I want to try out the new feature of github profiles an
 
 
 
+## Log 45
+### Day 45: [22nd July 2020]
+
+Today's progress: I realised that I am getting stuck at different points of the project since and so, I decided to research and find out what are the core concepts of making a search app and thanks to a simple explanation in a blog by Gideon Bamuleseyo, I was able to grasp where I went wrong in the first place and now, it is so crystal clear to me. So, today, I just spent fiddling around with some search apps and now, I am ready to do the  search app projects in React.
+
+
+
+
 
 
 
