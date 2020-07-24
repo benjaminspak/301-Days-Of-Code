@@ -2153,7 +2153,11 @@ Today's progress: I realised that I am getting stuck at different points of the 
 
 
 
+## Log 46
+### Day 46: [23rd July -24th July 2020]
 
+Today's progress: I skipped yesterday since it was my moms birthday, and had lots of chores to do and no time to sit. Today, I finished my app for meal search , with the help of some googling and blog lessons and here is the link to it on my codepen file
+: [https://codepen.io/meeramenon07/full/GRozbBJ]
 
 
 
