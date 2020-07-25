@@ -2163,4 +2163,8 @@ Today's progress: I skipped yesterday since it was my moms birthday, and had lot
 
 
 
-r
+## Log 47
+### Day 47:[24th july 2020]
+Today's progress: I am revising my code today,writing down in pen on paper improves my muscle memory and thats what I did today and then, also typed on my computer into my codepen file and here is the pen link .
+`https://codepen.io/meeramenon07/pen/GRozbBJ`
+
