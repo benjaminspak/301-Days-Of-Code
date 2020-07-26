@@ -2164,7 +2164,13 @@ Today's progress: I skipped yesterday since it was my moms birthday, and had lot
 
 
 ## Log 47
-### Day 47:[24th july 2020]
+### Day 47:[25th july 2020]
 Today's progress: I am revising my code today,writing down in pen on paper improves my muscle memory and thats what I did today and then, also typed on my computer into my codepen file and here is the pen link .
 `https://codepen.io/meeramenon07/pen/GRozbBJ`
+
+
+
+## Log 48
+### Day 48: [26th July 2020]
+Today, I am just going to read some more advanced concepts on props, and api for creating more react projects. I found some great concepts on w3 schools . It is so strange that after making some projects in React and going through advanced blogs and tutorials, I was still getting stuck at some point or the other while creating projects but these lessons on w3 schools on React props are so well explained, that I decided to read them for today and tomorrow before diving into more React projects next week.
 
