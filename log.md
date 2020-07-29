@@ -2180,3 +2180,9 @@ Today, I am just going to read some more advanced concepts on props, and api for
 
 Today, I am continuing to research and read up the concepts on react forms and props and I am really getting into react
 
+
+## Log 50
+### Day 50 : [29th July 2020]
+
+Today's progress: I am practising to write down each and every code syntaxes in React so that I will not be confused while write code for react projects.
+
