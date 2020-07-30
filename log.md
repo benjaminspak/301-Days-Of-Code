@@ -2186,3 +2186,12 @@ Today, I am continuing to research and read up the concepts on react forms and p
 
 Today's progress: I am practising to write down each and every code syntaxes in React so that I will not be confused while write code for react projects.
 
+
+
+## Log 51
+### Day 51: [30th July 2020]
+Todays progress: Today, instead of coding for my projects, I decided to update my github readme profile markdown and my profile really looks nice after using up this new readme profile feature. Thanks to github guys for doing this for us.
+
+Here is my profile after update :
+[github readme profile](https://github.com/meeramenon07)
+
