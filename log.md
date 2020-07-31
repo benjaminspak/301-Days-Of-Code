@@ -2197,3 +2197,56 @@ Here is my profile after update :
 
 `https://github.com/meeramenon07`
 
+
+
+## Log 52
+### Day 52: [31st July 2020]
+
+Today's progress: I am just going to play around with practise codes for props and components from a nice blog called golang.com I will practise these small snippets for two days after which I am going to start doing some serious projects in React.
+
+One of the code snippets for creating stateful functin in react for addressing user name is as follows
+
+```
+class Message extends React.Component{
+  state ={
+   user: 'Meera Menon'
+  }
+  render(){
+    return(
+      <h1>Hello {this.state.user}</h1>
+    );
+  }
+} 
+
+ReactDOM.render(<Message />, document.getElementById("root");
+
+```
+
+
+```
+function Vehicles(){
+ const car = "Fiat";
+ const specifications = {
+  length:4000,
+  width:3000,
+  height:1500
+ 
+ }
+ const getDimensions = specifications =>(
+   `${car.length}(mm) ${car.width}(mm) ${car.height}(mm)`
+ 
+ );
+ 
+ 
+  return(
+   <div>
+   <h1>{car}</h1>
+   <p>{getDimensions(specifications)}</p>
+   
+   </div>
+  
+  );
+}
+
+ReactDOM.render(<Vehicles />, document.getElementById("root");
+
