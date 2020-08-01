@@ -2250,3 +2250,70 @@ function Vehicles(){
 
 ReactDOM.render(<Vehicles />, document.getElementById("root");
 
+```
+
+
+
+
+## Log 53
+### Day 53: [01st August 2020]
+Today's progress: Today, I am continuing with writing down some syntaxes for jsx in React
+The code that I practised writing down as follows for stateless functions in React:
+
+```
+function Vehicles(){
+  const price = 7000;
+    if (price < 7000){
+      return <div>Car Price: {price + price*0.05}</div>
+    }else{
+      return<div>Car Price: {price + price*0.15}</div>
+    }
+  
+  return(
+    <div><h1>{price}</h1></div>
+  );
+}
+ReactDOM.render(<Vehicles />, document.getElementById("root"));
+
+
+
+```
+
+
+Jsx using javascaript mapping to use in stateless function in React:
+
+```
+
+function Automobiles(){
+
+
+ const cars = ["Mercedes", "Fiat", "Toyota", "Ambassador", "Ford"];
+ 
+ const carList = cars.map( (car) =>
+      <li key = {car.toString()}>{cars}</li>
+ 
+ );
+ 
+  return (<ul> <h1>{carList}</h1></ul>);
+  
+  
+  
+
+}
+ReactDOM.render(<Automobiles />, document.getElementById("root");
+
+
+```
+
+Thought of the day: Practise is perfection
+
+
+Links to the code:
+[codepen]{https://codepen.io/meeramenon07/pen/RwrXLpP}
+
+[codepen]{https://codepen.io/meeramenon07/pen/ExPqwEM}
+
+
+
+
+
