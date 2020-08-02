@@ -2317,3 +2317,30 @@ Links to the code:
 
 
 
+## Log 54
+### Day 54: [02nd August 2020]
+
+*Today's progress*: Today I am still continuing with React syntax code practising by keying it down in my codepen files. The following is the relation between parent and child props in stateless react function
+```
+function Parent(){
+  return(
+   <Child name="mike" english="90" hindi="100"/>
+  )
+}
+
+function Child(props){
+  return(
+  <div>  
+   <h1>{props.name}</h1>
+   <ul>
+     <li>{props.english}</li>
+     <li>{props.hindi}</li>
+   </ul>
+  </div>    
+  )
+} 
+
+ReactDOM.render(<Parent />, document.getElementById("root"));
+```
+
+
