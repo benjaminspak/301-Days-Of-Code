@@ -2344,3 +2344,15 @@ ReactDOM.render(<Parent />, document.getElementById("root"));
 ```
 
 
+
+
+
+## Log 55
+### Day 55: [03rd August 2020]
+
+*Today's progress*: I am watching a video tutorial on the making of a shopping cart in havascript and also React and this will give me the importance of using React over plain vanilla javascript in doing complex projects,
+
+video link:
+[YouTube](https://www.youtube.com/watch?v=LDKnz5gwdz4&feature=youtu.be  "JavaScript / React Shopping Cart - Using Vanilla JavaScript and then using React [Project] [2020]
+")
+I will continue watching this long tutorial tomorrow
