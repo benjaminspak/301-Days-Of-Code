@@ -2356,3 +2356,50 @@ video link:
 [YouTube](https://www.youtube.com/watch?v=LDKnz5gwdz4&feature=youtu.be  "JavaScript / React Shopping Cart - Using Vanilla JavaScript and then using React [Project] [2020]
 ")
 I will continue watching this long tutorial tomorrow
+
+
+
+
+
+## Log 56 
+### Day 56 : [04th August 2020]
+
+Today's progress: after watching the tutorials, I am practising some more codes on my codepen 
+
+using for loop, checking out parent and child components and passing props 
+
+code below
+```
+//parent component
+
+function App(){
+   
+    return <Student  name="George Van" marks={[45,43,67,70,80,90,70]}/>;
+      
+    
+}
+
+//child components
+//USING for loop
+function markList(marks){
+  let arrayItems = [];
+  for(let i = 0; i < marks.length; i++){
+     arrayItems.push(<li>{`${marks[i]}`}</li>);
+    
+  }
+  return arrayItems;
+}
+
+function Student(props){
+  return(<ul>{markList(props.marks)}</ul>)
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
+
+```
+
+[codepen](https://codepen.io/meeramenon07/pen/mdPborO) 
+
+
+Thoughts of the day getting there somehow hopefully
