@@ -2431,3 +2431,33 @@ function Student(props){
   );
 
 }
+
+ReactDOM.render(<App />, document.getElementById("root");
+
+
+Rendering unknown content in react
+
+// parent component
+
+function App(){
+return(
+<div>
+<Student name="Mike">
+<p>Mike is a student studying in some school or college.</p>
+</Student>
+</div>
+);
+}
+
+
+//child component
+
+function Student(props){
+ return(
+ <h1>{props.name}</h1>
+ <p>{props.children}</p>
+ );
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
