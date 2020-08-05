@@ -2403,3 +2403,31 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 
 Thoughts of the day getting there somehow hopefully
+
+
+
+
+
+
+
+## Log 57 
+### Day 57 : [05th August 2020]
+
+*Today's progress: Continuing with coding practice. Now, I am practising props ....below is a pen where I am rendering an array in child component using the map method 
+
+```
+function App(){
+  return Student  name="Mike"  marks={[70,40,50,60,30]}/>;
+}
+
+function Student(props){
+  return 
+  <ul>
+  {props.marks.map(mark =>(
+  <li>{ `${mark}` }</li>
+  ))}
+  
+  </ul>
+  );
+
+}
