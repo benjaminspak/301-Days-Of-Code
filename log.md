@@ -2461,3 +2461,117 @@ function Student(props){
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
+```
+
+
+
+
+
+
+## Log 58 
+### Day 58 : [06th August 2020]
+
+*Today's progress:
+
+practised following :
+
+Using React -using function props
+
+```
+var names = ["John", "Alice", "Mark"];
+function userName(name) {
+  
+  names = names.filter(item => item !== name)
+  
+}
+//The function defined as userName, uses the JavaScript method to remove the item from array. The userName function is provided to the Student component as the value for a prop named userCallback. The onClick expression is a fat arrow function that calls the function prop when it is invoked.
+
+//parent component
+
+function App() {
+  return (
+    <ul>
+      {names.map((name, index) => (
+        <li key={name}>
+          <Student index={index} name={name} userCallback={userName} />
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+//child component
+function Student(props) {
+  return (
+    <div>
+      <span>{props.name}</span>
+      <span>
+        <button onClick={() => props.userCallback(props.name)}>
+          Click Here
+        </button>
+      </span>
+    </div>
+  );
+}
+
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
+```
+
+
+PASSING PROPS WITH SPREAD IN REACT
+
+```
+//Parent component
+function App() {
+  return (
+    <div>
+      <Student name="Mathew" physics="45" chemistry="49" biology="53" />
+      <Student name="John" physics="75" chemistry="71" biology="78" />
+      <Student name="Robin" physics="95" chemistry="91" biology="88" />
+    </div>
+  );
+}
+
+//Child component-first level child
+
+function Student(props){
+  return(
+    <div>
+      <h1>{props.name}</h1>
+      <p><Marks {...props} /></p>
+      
+    </div>
+  
+  );
+}
+
+//child component- second level child
+//The {...props} expression passes on all of the props received from the parent component.
+
+
+function Marks(props){
+  return(
+    <div>
+      <ul>
+        <li>PHYSICS: {props.physics}</li>
+        <li>CHEMISTRY: {props.chemistry}</li>
+        <li>BIOLOGY: {props.biology}</li>
+        
+      </ul>
+    </div>
+  
+  )
+}
+
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
+```
+
+
+Thoughts of the day: ready to start my projects from tomorrow onwards, wish me luck in this React journey
+
+
+
