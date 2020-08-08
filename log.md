@@ -2575,3 +2575,15 @@ Thoughts of the day: ready to start my projects from tomorrow onwards, wish me l
 
 
 
+
+
+
+
+
+
+## Log 59 
+### Day 59 : [08th August 2020]
+Skipped for two days as I was brushing up on my regex skills 
+
+I revised regex - match method, and extracting an array with repeated words, I also revised the flags i and g where i is for ignoring ases and g is for extracting repeated words
+I will give it a couple of days more to finish this revision before moving on to my react projects building.   ooops ....it is not just moving ahead...
