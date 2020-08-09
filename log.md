@@ -2587,3 +2587,16 @@ Skipped for two days as I was brushing up on my regex skills
 
 I revised regex - match method, and extracting an array with repeated words, I also revised the flags i and g where i is for ignoring ases and g is for extracting repeated words
 I will give it a couple of days more to finish this revision before moving on to my react projects building.   ooops ....it is not just moving ahead...
+
+
+
+
+
+
+## Log 60 
+### Day 60 : [09th August 2020]
+
+Today's progress : Continuing with my regex revision, learnt how to match letters, letters and number ranges, and also how to excluse a number and letter ranges.
+After finishing all the regex revision lessons, I am going to document all the lessons and codes of regex on one log so that it is easier for me to retrieve later whenever I need them again.
+
+
