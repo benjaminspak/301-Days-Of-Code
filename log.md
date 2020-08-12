@@ -2600,3 +2600,11 @@ Today's progress : Continuing with my regex revision, learnt how to match letter
 After finishing all the regex revision lessons, I am going to document all the lessons and codes of regex on one log so that it is easier for me to retrieve later whenever I need them again.
 
 
+## Log 61
+### Day 61 :[12th August 2020]
+
+Today's progress: Continuing with my regex journey. Learnt how to match numbers, non numbers, greedy, lazy ranges, and many more, there are still eight more topics to cover again for revision in regex and I should be able to finish in two days time after which I will log my regex journey in another repo or this repo, I am not yet sure as of now. I also want to revise my es6 but not sure if I should do that first or straight away proceed to react projects
+
+Thoughts of the day = It is a very steep climb to reach my react journey peak, hehehe
+
+
