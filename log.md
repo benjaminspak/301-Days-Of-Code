@@ -2608,3 +2608,13 @@ Today's progress: Continuing with my regex journey. Learnt how to match numbers,
 Thoughts of the day = It is a very steep climb to reach my react journey peak, hehehe
 
 
+
+
+
+
+
+
+#Log62
+### Day 62: [13th August 2020]
+
+Todays progress: Continuing with my Regex revision classes- revised on various types of quantifiers and Look arounds.
