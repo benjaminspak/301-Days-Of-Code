@@ -2618,3 +2618,9 @@ Thoughts of the day = It is a very steep climb to reach my react journey peak, h
 ### Day 62: [13th August 2020]
 
 Todays progress: Continuing with my Regex revision classes- revised on various types of quantifiers and Look arounds.
+
+
+
+#Log 63 ###Day 63 : [Date:17th August 2020]
+I took a three day break to learn and revise regex to do better in react finally finished my regex lessons today
+Today's progress: Going to plan a project in react by tomorrow
