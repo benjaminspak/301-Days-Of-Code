@@ -2624,3 +2624,13 @@ Todays progress: Continuing with my Regex revision classes- revised on various t
 #Log 63 ###Day 63 : [Date:17th August 2020]
 I took a three day break to learn and revise regex to do better in react finally finished my regex lessons today
 Today's progress: Going to plan a project in react by tomorrow
+
+
+
+
+
+
+#Log 64 ###Day 64 : [Date:18th August 2020]
+
+Today, I started doing revision of my code for ES6, modern javascript since it is most important and vital for doing code in React projects, I should be able to finish my revision in ES6 in a week's time after which it will be much more easier for me to think in react
+
