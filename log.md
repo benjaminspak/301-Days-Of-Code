@@ -2634,3 +2634,70 @@ Today's progress: Going to plan a project in react by tomorrow
 
 Today, I started doing revision of my code for ES6, modern javascript since it is most important and vital for doing code in React projects, I should be able to finish my revision in ES6 in a week's time after which it will be much more easier for me to think in react
 
+
+
+
+
+
+
+
+#Log 65 ###Day 65 : [Date:19th August 2020]
+
+Today's progress: My es6 class begins
+Topic 1 
+Write arrow functions with parameters:
+var myConcat = function(arr1,arr2){
+  return arr1.concat(arr2);
+}
+
+changing the above function to an arrow function will look like this:
+
+var myConcat = (arr1, arr2) => arr1.concat(arr2);
+better practice to write const in place of var :
+const myConcat = (arr1,arr2) => arr1.concat(arr2);
+console.log(myConcat (([1.2],[3,4,5]));
+//[1,2,3,4,5]
+
+
+TOPIC 2: WRITING HIGHER ORDER ARROW FUNCTIONS
+
+const realNumberArray = [4,5.6, -9.8, 3.14, 42, 6, 8.34, -2];
+
+const squareList = (arr) => {
+   const squaredIntegers = arr;
+   return squaredIntegers;
+};
+const squaredIntegers = squareList(realNumberArray);
+console.log(squaredIntegers);
+
+after doing arrow function, it will look like this - while getting the result after filter and map of the numbers provided:
+
+const squareList = (arr) => {
+  const squaredIntegers = arr.filter(num => Number.isInteger(num) && num > 0).map( x  => x * x);
+};
+
+const squaredIntegers = squareList(realNumberArray);
+console.log(squaredIntegers);
+
+
+
+
+Topic 3 : use arrow functions to write concise anonymous functions
+var magic = function() {
+  return new Date();
+};
+
+
+after doing arrow function
+
+const magic = () => newDate();
+
+
+
+
+
+
+
+
+
+
