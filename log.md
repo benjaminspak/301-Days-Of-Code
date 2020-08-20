@@ -2698,6 +2698,63 @@ const magic = () => newDate();
 
 
 
+#Log 66 ###Day 66 : [Date:20th August 2020]s
+
+##Today's topics:
+
+-set default parameters for your functions
+-use the rest operator with function parameters
+
+
+Topic: set default parameters for your functions
+const increment= (function() {
+   return function increment(number,value=1
+){
+   return number + value;
+
+
+};
+
+
+
+
+})();
+
+console.log(increment(5,2)); //7
+
+console.log(increment(5));//6
+
+
+
+Topic:use the rest operator with function parameters
+
+const sum = (function(){
+   return functin sum(x,y,z){
+     const args = [x,y,z];
+     return args.reduce( (a,b) => a + b, 0);
+   
+   
+   };
+
+})();
+console.log(sum(1,2,3));
+
+after using the rest operator, this looks like the following function
+
+
+const sum = function(){
+   return function sum(...args){
+      return args.reduce((a,b) => a+b, 0);
+   };
+
+})();
+console.log(sum(1,2,3,4));
+now it is possible to check for more than three values in the console .log after using the rest operator.
+
+
+
+
+
 
 
 
