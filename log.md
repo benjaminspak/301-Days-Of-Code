@@ -2783,3 +2783,13 @@ let arr2;
 console.log(arr2);
 //["JAN", "FEB", "MAR", "APR", "MAY"]
 
+
+
+
+
+
+
+#Log 68 ###Day 68 : [Date:29th August 2020]s
+
+I have started doing projects in React hooks
+The first one is creating a quiz app in react hooks and I am working on it , hope to complete it within this week
