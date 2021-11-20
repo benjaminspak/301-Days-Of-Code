@@ -32,7 +32,7 @@ Totally, amigo! Join any time of the year. The vision of **#301DaysOfCode** is t
 
 ### I'm doing #100DaysOfCode. Can I do #301DaysOfCode too?
 
-Of course my friend! Most people doing **#100DaysOfCode** are also doing **#301DaysOfCode**.
+Of course, my friend! Most people doing **#100DaysOfCode** are also doing **#301DaysOfCode**.
 
 **#100DaysOfCode** is focused on getting you to form a coding habit, which is awesome, but requires you to know Git right from the start.
 
@@ -47,4 +47,4 @@ If you like this repo and find it useful, please consider &#9733; starring it (o
 
 ---
 
-So, what are you waiting for? Fork this repository, and start coding now! Let's make 2020 - **"A Year of Code"**.
+So, what are you waiting for? Fork this repository, and start coding now! Let's make 2022 - **"A Year of Code"**.
